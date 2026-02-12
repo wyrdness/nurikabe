@@ -1,0 +1,379 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/nurikabe",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "nurikabe",
+    "name": "Nurikabe",
+    "aliases": [
+      {
+        "name": "Nurikabe",
+        "language": "Japanese",
+        "region": "Japan",
+        "meaning": "plaster wall"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Yokai",
+    "tags": [
+      "yokai",
+      "japanese-folklore",
+      "invisible-barrier",
+      "road-spirit",
+      "obstruction",
+      "trickster"
+    ],
+    "status": "folklore",
+    "description": {
+      "summary": "A Japanese yokai that manifests as an invisible wall blocking travelers' paths at night. The nurikabe prevents passage in any direction until defeated by tapping its lower portion with a stick.",
+      "full": "The nurikabe is a peculiar yokai from Japanese folklore that appears as an invisible barrier in the paths of nighttime travelers. When a person encounters a nurikabe, they find themselves unable to proceed forward, backward, or to either side—an invisible wall blocks every direction they attempt. The frustrated traveler may wander in circles or attempt various routes, all to no avail. According to tradition, the only way to bypass a nurikabe is to tap the lower part of the invisible barrier with a stick, at which point it vanishes. While usually depicted as invisible, some artistic representations show the nurikabe as a large, wall-like creature with eyes and sometimes limbs. The nurikabe serves as a yokai explanation for becoming inexplicably lost or blocked while traveling at night, particularly on dark roads. In modern times, the nurikabe appears in yokai collections, video games (notably inspiring aspects of Pokémon characters), and Japanese popular culture. The nurikabe represents the supernatural obstacles and confusions that travelers might encounter, teaching patience and problem-solving while adding mystery to nighttime journeys."
+    },
+    "etymology": {
+      "origin": "From Japanese 'nuri' (plaster) and 'kabe' (wall)",
+      "meaning": "Plaster wall",
+      "first_use": "Traditional Japanese folklore, popularized in Edo period yokai collections"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Yokai",
+      "subtype": "Obstruction Spirit",
+      "variant": "Japanese"
+    },
+    "related_phenomena": [
+      {
+        "id": "yokai",
+        "name": "Yokai",
+        "relationship": "category",
+        "description": "Broader category of Japanese supernatural entities"
+      },
+      {
+        "id": "road-spirits",
+        "name": "Road Spirits",
+        "relationship": "similar",
+        "description": "Spirits that affect travelers on roads"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 2.0,
+        "max": 5.0,
+        "unit": "meters",
+        "confidence": "low"
+      },
+      "weight": {
+        "unit": "unknown",
+        "confidence": "none"
+      },
+      "coloration": [
+        "invisible",
+        "gray (artistic depictions)",
+        "stone-like (artistic depictions)"
+      ],
+      "features": [
+        {
+          "feature": "Form",
+          "description": "Invisible barrier or wall-like entity",
+          "frequency": "always"
+        },
+        {
+          "feature": "Eyes",
+          "description": "Sometimes depicted with eyes in artistic representations",
+          "frequency": "occasional"
+        },
+        {
+          "feature": "Limbs",
+          "description": "Occasionally shown with simple limbs in modern depictions",
+          "frequency": "rare"
+        },
+        {
+          "feature": "Texture",
+          "description": "Described or depicted as wall-like, plastered surface",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Typically invisible. When depicted, appears as large wall-like entity with simple features. Primary characteristic is manifestation as impassable barrier rather than physical form."
+    },
+    "abilities": [
+      {
+        "ability": "Invisible barrier creation",
+        "description": "Creates impassable invisible walls blocking travelers",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Disorientation",
+        "description": "Causes travelers to become confused and lost",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Multi-directional blocking",
+        "description": "Blocks passage in all directions simultaneously",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "neutral_trickster",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "roads",
+        "paths",
+        "travel routes"
+      ],
+      "diet": "None (spiritual entity)",
+      "patterns": [
+        "Appears at night to travelers",
+        "Blocks passage in all directions",
+        "Disappears when lower portion tapped with stick",
+        "Does not harm travelers, merely obstructs",
+        "No apparent motivation beyond obstruction"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Traditional Japanese folklore entity found throughout Japan. Primarily associated with roads and travel routes where nighttime travelers might become disoriented.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Throughout Japan"
+      ]
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Edo Period",
+        "circa": true,
+        "source": "Traditional Japanese folklore collections"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Traditional era",
+          "description": "Established in Edo period yokai folklore"
+        }
+      ],
+      "seasonal_patterns": "No specific seasonal patterns, primarily nocturnal activity"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "The nurikabe originates from Japanese yokai traditions, likely emerging as a folkloric explanation for travelers becoming mysteriously lost or blocked on dark roads. It represents the supernatural obstacles of nighttime travel.",
+      "earliest_accounts": "Traditional Japanese folklore, popularized during the Edo period (1603-1868) in yokai catalogs and illustrated scrolls.",
+      "folklore_connections": "Part of broader yokai tradition including road spirits, trickster entities, and phenomena that affect travelers."
+    },
+    "timeline": [
+      {
+        "date": "Edo Period (1603-1868)",
+        "event": "Yokai catalogs and art",
+        "significance": "Nurikabe appears in yokai collections and illustrated works",
+        "source": "Edo period yokai catalogs"
+      },
+      {
+        "date": "1900s-present",
+        "event": "Modern popular culture",
+        "significance": "Nurikabe appears in games, anime, manga, and yokai references",
+        "source": "Modern media"
+      }
+    ],
+    "modern_era": "The nurikabe continues as a recognized yokai in Japanese culture, appearing in video games (influencing Pokémon designs like Shuckle), yokai-themed media, and folklore collections. While no modern encounter claims exist, it remains a beloved part of Japanese supernatural tradition."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": "folklore",
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0,
+      "date_range": {
+        "earliest": "Traditional folklore",
+        "latest": "Traditional folklore"
+      }
+    },
+    "notable": [
+      {
+        "id": "nurikabe-traditional-accounts",
+        "name": "Traditional Folklore Accounts",
+        "date": {
+          "value": "Traditional era",
+          "precision": "era"
+        },
+        "location": {
+          "description": "Various locations throughout Japan",
+          "country": "Japan",
+          "region": "Various"
+        },
+        "witnesses": {
+          "count": "folklore",
+          "types": ["Traditional accounts"],
+          "credibility_factors": ["Cultural tradition"]
+        },
+        "description": "Traditional accounts describe travelers encountering invisible barriers at night that prevent them from proceeding in any direction. The traveler becomes frustrated and confused until discovering that tapping the lower part of the barrier with a stick causes it to disappear.",
+        "conditions": {
+          "weather": "Various",
+          "visibility": "Night, darkness",
+          "time_of_day": "Night",
+          "duration": "Until barrier is tapped correctly"
+        },
+        "evidence": [
+          "Traditional folklore",
+          "Yokai catalogs",
+          "Cultural stories"
+        ],
+        "credibility": {
+          "rating": "folklore",
+          "factors": [
+            "Traditional folklore",
+            "Cultural significance",
+            "No modern claims",
+            "Supernatural explanation for getting lost"
+          ],
+          "notes": "The nurikabe is a traditional folklore entity representing the mysterious obstacles of nighttime travel. It serves as cultural explanation rather than cryptozoological claim."
+        },
+        "sources": [
+          "Edo period yokai collections",
+          "Traditional Japanese folklore"
+        ],
+        "featured": true
+      }
+    ],
+    "database_path": "./sightings/"
+  },
+
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": [],
+    "cultural": [
+      {
+        "type": "folklore_tradition",
+        "description": "Traditional Japanese yokai folklore and artistic depictions",
+        "status": "historical"
+      },
+      {
+        "type": "artistic_depictions",
+        "description": "Edo period and modern yokai art showing nurikabe",
+        "status": "ongoing"
+      }
+    ]
+  },
+
+  "theories": {
+    "paranormal": [],
+    "scientific": [
+      {
+        "name": "Folklore explanation for disorientation",
+        "description": "Nurikabe represents cultural explanation for nighttime disorientation and getting lost",
+        "proponents": ["Folklorists"],
+        "evidence_cited": ["Cultural function", "Yokai tradition", "Psychological basis"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Pure folklore",
+        "description": "Entirely folkloric entity with no basis in real phenomena",
+        "proponents": ["Mainstream scholars"],
+        "evidence_cited": ["No modern claims", "Fantastical nature", "Cultural tradition"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Stories of travelers blocked by invisible walls",
+        "Technique of tapping lower barrier with stick",
+        "Nighttime travel cautions"
+      ],
+      "stories": [
+        "Travelers circling in confusion unable to proceed",
+        "Discovery of the stick-tapping solution",
+        "Barrier mysteriously vanishing"
+      ],
+      "beliefs": "The nurikabe was traditionally understood as a real yokai phenomenon that travelers might encounter. It taught problem-solving and added supernatural mystery to nighttime journeys."
+    },
+    "indigenous": {
+      "cultures": [
+        "Japanese"
+      ],
+      "significance": "The nurikabe is part of Japan's rich yokai tradition, representing the supernatural aspects of daily life and travel.",
+      "sensitivity_note": "⚠️ JAPANESE CULTURAL TRADITION: The nurikabe is part of traditional Japanese folklore and yokai culture.",
+      "respect_guidelines": "Approach nurikabe folklore with respect for Japanese cultural traditions and yokai heritage."
+    },
+    "popular_culture": {
+      "literature": [
+        "Yokai encyclopedias",
+        "Folklore collections"
+      ],
+      "film_tv": [
+        "Anime featuring yokai",
+        "Japanese folklore programs"
+      ],
+      "games": [
+        "Pokémon (Shuckle inspired by nurikabe)",
+        "Yokai-themed video games",
+        "Nurikabe puzzle game (named after the yokai)"
+      ],
+      "other": [
+        "Yokai cultural exhibitions",
+        "Japanese folklore education"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Yokai scholars",
+        "affiliation": "Japanese folklore studies",
+        "contribution": "Documentation and preservation of yokai traditions",
+        "period": "Ongoing"
+      }
+    ],
+    "organizations": [],
+    "ongoing_studies": "Folkloric and cultural studies of yokai traditions in Japanese society."
+  },
+
+  "defeat_method": {
+    "traditional_method": "Tap the lower part of the invisible barrier with a stick, causing the nurikabe to disappear",
+    "notes": "The nurikabe is not hostile and does not harm travelers—it merely obstructs. The stick-tapping solution is more puzzle-solving than combat."
+  },
+
+  "sources": [
+    {
+      "id": "yokai-folklore",
+      "type": "cultural_tradition",
+      "title": "Japanese Yokai Folklore Traditions",
+      "description": "Traditional folklore and Edo period yokai collections",
+      "date": "Traditional era to present"
+    }
+  ]
+}
