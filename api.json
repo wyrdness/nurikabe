@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/nurikabe",
     "maintainers": [
       {
@@ -19,68 +19,127 @@
   "phenomenon": {
     "id": "nurikabe",
     "name": "Nurikabe",
-    "aliases": [],
-    "category": "|_BROADER_CATEGORY_OF_JAPANESE_SUPERNATURAL_ENTITIES_|",
-    "subcategory": "Obstruction Spirit",
+    "aliases": [
+      { "name": "Nurikabe", "language": "Japanese", "meaning": "From nuru ('to plaster, paint') + kabe ('wall'); 'plastered wall'" },
+      { "name": "Nurikabe (塗壁)", "language": "Japanese", "region": "Standard kanji" }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Yōkai (obstructive spirit)",
     "tags": [
+      "yokai",
+      "japan",
+      "kyushu",
       "folklore",
-      "mythology"
+      "nocturnal",
+      "obstruction",
+      "edo-period"
     ],
     "status": "documented",
     "description": {
-      "summary": "The nurikabe is a peculiar yokai from Japanese folklore that appears as an invisible barrier in the paths of nighttime travelers.",
-      "full": "The nurikabe is a peculiar yokai from Japanese folklore that appears as an invisible barrier in the paths of nighttime travelers. When a person encounters a nurikabe, they find themselves unable to proceed forward, backward, or to either side—an invisible wall blocks every direction they attempt. The frustrated traveler may wander in circles or attempt various routes, all to no avail. According to tradition, the only way to bypass a nurikabe is to **tap the lower part of the invisible barrier with a stick**, at which point it vanishes. While usually depicted as invisible, some artistic representations show the nurikabe as a large, wall-like creature with eyes and sometimes limbs."
+      "summary": "A Japanese yōkai of folklore from northern Kyushu that manifests as an invisible barrier blocking the path of nighttime travelers. Defeating it traditionally requires sweeping a stick along its base.",
+      "full": "Nurikabe (塗壁, ぬりかべ, 'plastered wall') is a yōkai documented in folk traditions of northern Kyushu — particularly Onga County in former Chikuzen Province (modern Fukuoka Prefecture) and adjacent parts of Ōita Prefecture. It manifests as an invisible obstruction that suddenly bars a traveler's path on a road at night: attempts to walk around or above it fail, since the wall extends as needed. Folklorist Kunio Yanagita's 1938 collection records that 'when one is walking a path at night, suddenly the destination one is going towards turns into a wall'. The traditional remedy, recorded in the same regional sources, is to sweep a stick along the bottom of the wall — striking the top has no effect. Until 2007 the creature was thought to lack any pre-modern visual representation; that year, a c. 1660 yōkai handscroll held by Brigham Young University was identified as containing a labelled illustration of nurikabe shown as a three-eyed, dog-elephant-like beast, which is now considered the earliest extant depiction. The modern, beloved visual identity of nurikabe — a great rectangular wall with arms, legs and a face — was created by manga artist Mizuki Shigeru, who said the design grew out of a personal experience of an invisible obstruction during the Pacific War in New Guinea. Through Mizuki's GeGeGe no Kitarō series the character became a national icon. Skeptics and some cultural commentators interpret the original folk experience as a sleep-deprivation, fog or ground-hugging mist phenomenon known to nighttime travelers in the Kyushu countryside."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Japanese: 塗 (nuru, 'to plaster, paint, smear') + 壁 (kabe, 'wall')",
+      "meaning": "'Plastered wall' or 'painted wall'; also rendered 塗り壁",
+      "first_use": "Recorded in 20th-century Kyushu folklore collections (notably Yanagita Kunio, 1938); the BYU c. 1660 scroll labels its creature 'nurikabe', placing the term in the mid-Edo period"
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "|_BROADER_CATEGORY_OF_JAPANESE_SUPERNATURAL_ENTITIES_|",
-      "type": "Obstruction Spirit",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "ENTITY_SPIRIT",
+      "type": "Yōkai",
+      "subtype": "Obstruction yōkai",
+      "variant": "Northern Kyushu folk tradition"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "nobiagari", "name": "Nobiagari", "relationship": "similar", "description": "Yōkai that grows taller and taller before a traveler, similarly obstructive" },
+      { "id": "betobeto-san", "name": "Betobeto-san", "relationship": "similar", "description": "Invisible road yōkai that follows night travelers" },
+      { "id": "tanuki", "name": "Tanuki", "relationship": "related", "description": "In some regional accounts, mischievous tanuki are blamed for the same disorienting nighttime experiences" },
+      { "id": "nurarihyon", "name": "Nurarihyon", "relationship": "related", "description": "Similarly known mainly through Edo emaki and revived by Mizuki Shigeru" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 2.0, "max": 6.0, "unit": "meters", "confidence": "low" },
+      "coloration": ["white plaster (BYU scroll)", "earth-coloured (Mizuki design)"],
+      "features": [
+        { "feature": "Invisibility", "description": "In folk accounts, the wall is unseen and felt only as resistance to forward movement", "frequency": "always" },
+        { "feature": "Self-extending barrier", "description": "Expands in height and width to defeat attempts to climb or skirt it", "frequency": "always" },
+        { "feature": "Vulnerable lower edge", "description": "Disappears or releases the traveler when its base is swept with a stick", "frequency": "always" },
+        { "feature": "Three eyes (BYU scroll)", "description": "The c. 1660 BYU scroll shows a three-eyed creature labelled nurikabe with a dog-elephant body", "frequency": "rare" },
+        { "feature": "Anthropomorphic wall (Mizuki design)", "description": "Modern depiction as a square wall with stubby arms, legs and a small face", "frequency": "common" }
+      ],
+      "morphology": "Traditionally non-corporeal, perceived only by touch; pre-modern art and modern manga supply the only visible morphologies."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Path obstruction", "description": "Materialises as an impassable wall blocking the road ahead of a lone night traveler", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Adaptive size", "description": "Stretches taller or wider to thwart the traveler's chosen route", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Disorientation of travelers", "description": "Causes the traveler to lose their sense of direction and walk in circles", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["rural roads at night", "lonely paths in northern Kyushu", "coastal walking routes (Onga County)"],
+      "diet": "Not applicable",
+      "patterns": [
+        "Appears suddenly to a single traveler",
+        "Active during the late hours of the night",
+        "Departs once the lower edge is struck or swept with a stick"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Indigenous folk tradition is concentrated in northern Kyushu, especially Fukuoka Prefecture (former Chikuzen Province) and Ōita Prefecture. The figure is now nationally and internationally recognised through Mizuki Shigeru's manga.",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Kyushu",
+        "Fukuoka Prefecture",
+        "Ōita Prefecture",
+        "Onga County (former Chikuzen Province)"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Onga County, Fukuoka Prefecture",
+        "location": {
+          "description": "Coastal northern Kyushu, in the former Chikuzen Province",
+          "country": "Japan",
+          "region": "Fukuoka Prefecture"
+        },
+        "peak_period": "Pre-modern folk tradition through 1930s ethnographic collection",
+        "notes": "Principal source area for Yanagita Kunio's documentation of the nurikabe legend"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "c. 1660",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Yōkai picture scroll (Bakemono no e) held by Brigham Young University; first modern textual collection by Yanagita Kunio (1938)"
+      },
+      "peak_activity_periods": [
+        { "period": "Edo period", "description": "Iconographic depiction in yōkai scrolls (BYU c. 1660)" },
+        { "period": "1930s", "description": "Ethnographic collection of regional folktales by Yanagita Kunio" },
+        { "period": "1968–present", "description": "Mass-cultural revival via Mizuki Shigeru's GeGeGe no Kitarō" }
+      ]
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Folk traditions of nighttime travelers in northern Kyushu, where invisible obstructions on country roads were attributed to a distinct yōkai.",
+      "earliest_accounts": "A c. 1660 Edo-period yōkai handscroll held by Brigham Young University depicts a creature explicitly labelled nurikabe; identified by Yumoto Kōichi and announced in 2007.",
+      "folklore_connections": "Member of the broader category of Japanese 'road yōkai' (michi no yōkai) that bedevil lone travelers, alongside nobiagari and betobeto-san."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "c. 1660", "event": "Earliest known illustrated record: a yōkai handscroll labelled with the name 'nurikabe', later acquired by the L. Tom Perry Special Collections at Brigham Young University", "significance": "Pushes documented existence of the figure to the mid-Edo period", "source": "Brigham Young University, BYU Magazine" },
+      { "date": "1938", "event": "Folklorist Kunio Yanagita publishes accounts of nurikabe in folk-tale collections, locating it in Onga County, Fukuoka", "significance": "Establishes the canonical folkloric narrative", "source": "Yanagita Kunio, folklore writings" },
+      { "date": "1968", "event": "Mizuki Shigeru's GeGeGe no Kitarō introduces the iconic anthropomorphic wall design", "significance": "Modern visual identity of nurikabe; the character becomes a member of Kitarō's troupe", "source": "Shōnen Magazine serialisation" },
+      { "date": "2007", "event": "Yumoto Kōichi identifies the c. 1660 BYU scroll's creature as a labelled nurikabe", "significance": "First confirmed pre-modern image of the yōkai", "source": "BYU Magazine reporting" }
+    ],
+    "modern_era": "Through GeGeGe no Kitarō, related anime, and Mizuki Shigeru's yōkai dictionaries, nurikabe has become one of Japan's most recognisable yōkai. The 2007 BYU rediscovery led to a small wave of academic and popular interest in pre-modern depictions and the history of the figure beyond Mizuki's design."
   },
   "sightings": {
     "statistics": {
@@ -97,30 +156,103 @@
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "nurikabe-evidence-byu-scroll",
+        "type": "illustrated scroll",
+        "name": "Bakemono no e (c. 1660), L. Tom Perry Special Collections",
+        "date": "c. 1660",
+        "description": "Edo-period yōkai handscroll containing an illustration explicitly labelled 'nurikabe', depicting a three-eyed dog-elephant-like creature.",
+        "location": "Brigham Young University, Provo, Utah, USA",
+        "status": "verified",
+        "analysis": "Identified as the earliest known visual record of the nurikabe by Yumoto Kōichi (announced 2007).",
+        "source": "BYU Magazine"
+      },
+      {
+        "id": "nurikabe-evidence-yanagita-1938",
+        "type": "ethnographic record",
+        "name": "Yanagita Kunio's nurikabe accounts",
+        "date": "1938",
+        "description": "Field-collected folk narratives placing nurikabe in Onga County, Fukuoka Prefecture, with the canonical 'tap the base with a stick' resolution.",
+        "status": "verified",
+        "analysis": "Foundation for the 20th-century literary career of the yōkai.",
+        "source": "Kunio Yanagita, folklore writings"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Genuine yōkai obstruction",
+        "description": "Traditional view that nurikabe is a discrete supernatural entity that impedes travelers as a manifestation of the night road's spiritual hazards.",
+        "proponents": ["Northern Kyushu folk tradition"],
+        "evidence_cited": ["Multi-generational folk testimony recorded by Yanagita Kunio"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Sensory disorientation in fatigued travelers",
+        "description": "Reports correspond to nighttime disorientation, fatigue, low-visibility fog and ground mist on rural Kyushu roads, in which lone walkers lose their bearing and feel unable to proceed.",
+        "proponents": ["Modern folkloric and skeptical commentators"],
+        "evidence_cited": ["Climatic conditions of coastal northern Kyushu", "Comparable disorientation phenomena in other folk traditions"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Cultural construction by modern media",
+        "description": "While the folkloric kernel is genuine, the dominant mental image of nurikabe is a 20th-century creation by Mizuki Shigeru rather than an inherited visual tradition.",
+        "proponents": ["Contemporary yōkai scholars"],
+        "evidence_cited": ["Absence (until 2007) of any known pre-modern image", "Direct testimony of Mizuki Shigeru on his New Guinea inspiration"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Northern Kyushu folk-tale tradition (Onga County)",
+        "Yōkai picture-scroll tradition of the Edo period",
+        "Mizuki Shigeru's modern yōkai canon"
+      ],
+      "stories": [
+        "Travelers in Onga County stopped on the road by an invisible wall, freed by sweeping a stick at its base",
+        "Mizuki Shigeru's wartime experience in New Guinea of an invisible obstruction"
+      ],
+      "beliefs": "Tradition interprets nighttime obstruction on lonely roads as a yōkai attack rather than mere disorientation; the stick-sweeping remedy is canonical."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Yanagita Kunio's folklore writings (1938 onward)",
+        "Mizuki Shigeru's Yōkai Daizukan and related compendia"
+      ],
+      "film_tv": [
+        "GeGeGe no Kitarō (multiple anime series, 1968 onward)",
+        "Yo-kai Watch (anime, 2014–)"
+      ],
+      "games": [
+        "Yo-kai Watch series — Nurikabe (Walldin)",
+        "Nioh series — appearance as a yokai enemy"
+      ],
+      "other": [
+        "GeGeGe no Kitarō museum exhibits in Sakaiminato (Mizuki Shigeru Road)"
+      ]
     }
   },
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Kunio Yanagita", "affiliation": "Founder of Japanese folklore studies (minzokugaku)", "contribution": "First systematic publication of nurikabe folklore", "period": "1930s" },
+      { "name": "Mizuki Shigeru", "affiliation": "Manga artist", "contribution": "Created the dominant modern visual depiction of nurikabe", "period": "1960s–2015" },
+      { "name": "Yumoto Kōichi", "affiliation": "Yumoto Kōichi Memorial Japan Yokai Museum and yōkai scholar", "contribution": "Identification of the BYU c. 1660 nurikabe scroll", "period": "21st century" }
+    ],
+    "organizations": [
+      { "name": "L. Tom Perry Special Collections, Brigham Young University", "url": "https://lib.byu.edu/collections/special-collections/", "focus": "Custodian of the c. 1660 nurikabe scroll" }
+    ],
+    "ongoing_studies": "Continued cataloguing of Edo-period yōkai emaki and reassessment of pre-modern nurikabe iconography in the wake of the 2007 BYU rediscovery."
   },
-  "sources": []
+  "sources": [
+    { "id": "wiki-nurikabe", "type": "website", "title": "Nurikabe", "publication": "Wikipedia, the free encyclopedia", "url": "https://en.wikipedia.org/wiki/Nurikabe", "accessed": "2026-05-07" },
+    { "id": "yokai-com-nurikabe", "type": "website", "title": "Nurikabe", "publication": "yokai.com (Matthew Meyer)", "url": "https://yokai.com/nurikabe/", "accessed": "2026-05-07" },
+    { "id": "byu-scroll", "type": "article", "title": "How BYU's 17th-Century Ghost Scroll Revealed a Mysterious Creature", "publication": "BYU Magazine", "url": "https://magazine.byu.edu/article/catching-an-invisible-ghost/", "accessed": "2026-05-07" },
+    { "id": "tofugu-nurikabe", "type": "website", "title": "Nurikabe: Hitting the Wall in Japan", "publication": "Tofugu", "url": "https://www.tofugu.com/japan/nurikabe/", "accessed": "2026-05-07" }
+  ]
 }
